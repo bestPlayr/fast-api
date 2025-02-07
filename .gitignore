@@ -1,0 +1,43 @@
+# 1️⃣ Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 2️⃣ Ignore Virtual Environments
+venv/
+.env/
+*.env
+
+# 3️⃣ Ignore Dependency Lock Files (if using poetry or pipenv)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# 4️⃣ Ignore IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 5️⃣ Ignore Logs and Temp Files
+logs/
+*.log
+*.out
+*.tmp
+*.bak
+
+# 6️⃣ Ignore Database and Migration Files (if using SQLite)
+*.sqlite3
+*.db
+migrations/
+
+# 7️⃣ Ignore Docker-related files (optional)
+*.dockerfile
+docker-compose.override.yml
+
+# 8️⃣ Ignore Cache and Build Files
+__pycache__/
+dist/
+build/
+*.egg-info/
